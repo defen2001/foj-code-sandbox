@@ -14,9 +14,9 @@ import java.util.List;
 public class ExecuteCodeResponse {
 
     /**
-     * 输出用例
+     * 输出结果
      */
-    private List<String> outputList;
+    private List<ExecuteMessage> results;
 
     /**
      * 接口信息
@@ -27,9 +27,4 @@ public class ExecuteCodeResponse {
      * 执行状态
      */
     private Integer status;
-
-    /**
-     * 判题信息
-     */
-    private JudgeInfo judgeInfo;
 }
